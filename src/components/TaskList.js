@@ -40,8 +40,8 @@ function TaskList() {
             ) : (
               <>
                 {task.text}
-                <button onClick={() => handleDelete(task.id)}>Delete</button>
-                <button onClick={() => dispatch({ type: 'EDIT_TASK', id: task.id })}>Edit</button>
+                <button style={{ backgroundColor: '#90EE90', color: '#333333', marginLeft: '10px'}} onClick={() => handleDelete(task.id)}> Delete</button>
+                <button style={{ backgroundColor: '#DC143C', color: '#333333', marginLeft: '10px' }} onClick={() => dispatch({ type: 'EDIT_TASK', id: task.id })}>Edit</button>
               </>
             )}
           </li>
