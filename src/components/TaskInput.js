@@ -25,7 +25,7 @@ function TaskInput() {
         value={task}
         onChange={handleChange}
       />
-      <button type="submit">Add Task</button>
+      <button style={{ backgroundColor: 'skyblue', color: '#333333', marginLeft: '10px'}} type="submit">Add Task</button>
     </form>
   );
 }
